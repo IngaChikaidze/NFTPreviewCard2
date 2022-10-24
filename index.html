@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>NFT-preview-card</title>
+    <style>
+      body {
+        font-family: "Outfit";
+        background-color: #0d192c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .div1 {
+        width: 350px;
+        height: 596px;
+        border-radius: 15px;
+        padding: 24px;
+        background-color: #15263f;
+        flex-direction: column;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+      h1 {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        color: #ffffff;
+      }
+      p {
+        height: 52px;
+        left: 6.86%;
+        right: 6.86%;
+        top: calc(50% - 52px / 2 + 122px);
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        color: #8bacd9;
+      }
+
+      .group4 {
+        border-bottom: 1px solid #2e405a;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .left {
+        color: cyan;
+        nt-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .right {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #8bacd9;
+      }
+
+      .rectangle {
+        height: 1px;
+        width: 302px;
+        left: 24px;
+        top: 514px;
+        border-radius: 10px;
+      }
+
+      .new-group {
+        height: 33px;
+        width: 230px;
+        left: 24px;
+        top: 531px;
+        border-radius: 0px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .creation {
+        font-family: "Outfit";
+        font-style: normal;
+        font-size: 16px;
+        margin: auto;
+        color: #8bacd9;
+      }
+      .name {
+        font-family: "Outfit";
+        font-style: normal;
+        font-size: 16px;
+        margin: auto;
+        color: #ffffff;
+      }
+
+      h1:hover {
+        color: #00fff8;
+        cursor: pointer;
+      }
+
+      .name:hover {
+        color: #00fff8;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="div1">
+      <img src="image-equilibrium.jpg" />
+      <h1>Equilibrium #3429</h1>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+
+      <div class="group4">
+        <div class="left">
+          <img src="./icon-ethereum.svg" />
+          0.041 ETH
+        </div>
+
+        <div class="right">
+          <img src="./icon-clock.svg" />
+          3 days left
+        </div>
+      </div>
+      <div class="rectangle"></div>
+
+      <div class="new-group">
+        <img
+          src="image-avatar.png"
+          style="
+            height: 33px;
+            width: 33px;
+            left: 24px;
+            top: 531px;
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+            border: 1px solid white;
+          "
+        />
+        <p class="creation">Creation of</p>
+        <p class="name">Jules Wyvern</p>
+      </div>
+    </div>
+  </body>
+</html>
